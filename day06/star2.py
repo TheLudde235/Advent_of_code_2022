@@ -1,5 +1,6 @@
 inp = open('input.txt').read()
 
+
 def calculate_depending_on_depth(depth: int, message: str) -> int:
     for i in range(depth - 1, len(message)):
         s = {inp[i]}
